@@ -7,7 +7,7 @@ export const generateImage = async (
   
   // Use process.env.API_KEY as strictly required by system guidelines.
   // The API key must be selected by the user via the UI if using paid models.
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ AIzaSyA1S_HInAfadrC3aEM1F5tWfaxru3eX_ws });
 
   // Use the specific model requested
   const modelName = 'gemini-3-pro-image-preview';
